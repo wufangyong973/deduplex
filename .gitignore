@@ -20,6 +20,7 @@ finetune/
 *.pt
 NUL
 
+temp_auto_push.bat
 # Fine-tune / evidence leftovers if recreated locally
 data/finetune/datasets/
 data/finetune/runs/
@@ -41,4 +42,5 @@ sample_data/perf/*.nessus
 # OS junk
 Thumbs.db
 Desktop.ini
-.DS_Store
+.DS_Store.gitignore
+branch_structure.json
